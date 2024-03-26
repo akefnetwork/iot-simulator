@@ -6,7 +6,6 @@
     <title>IoT Simulator</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="container mt-5">
@@ -27,6 +26,21 @@
                 <label for="emptyWeight">Empty Weight</label>
                 <input type="number" class="form-control" id="emptyWeight" name="emptyWeight" value="5030">
             </div>
+            
+            <!-- Fill Level Controls -->
+            <div class="form-group">
+                <label>Filling Level</label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <button type="button" class="btn btn-outline-secondary" id="decrease">-</button>
+                    </div>
+                    <input type="text" class="form-control text-center" id="fillingLevel" name="fillingLevel" value="1.00" readonly>
+                    <div class="input-group-append">
+                        <button type="button" class="btn btn-outline-secondary" id="increase">+</button>
+                    </div>
+                </div>
+            </div>
+
             <button type="submit" class="btn btn-primary">Apply</button>
         </form>
         <div id="feedback" class="mt-3"></div>
