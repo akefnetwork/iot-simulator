@@ -32,11 +32,11 @@
                 <label>Filling Level</label>
                 <div class="input-group">
                     <div class="input-group-prepend">
-                        <button type="button" class="btn btn-outline-secondary" id="decrease">-</button>
+                        <button type="button" class="btn btn-danger" id="decrease">-</button>
                     </div>
                     <input type="text" class="form-control text-center" id="fillingLevel" name="fillingLevel" value="1.00" readonly>
                     <div class="input-group-append">
-                        <button type="button" class="btn btn-outline-secondary" id="increase">+</button>
+                        <button type="button" class="btn btn-success" id="increase">+</button>
                     </div>
                 </div>
             </div>
